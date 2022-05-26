@@ -1,8 +1,8 @@
-.Alertbox-base {
+.Signupbox-base {
     width: 150px;
     height: 200px;
     border-top-left-radius: 30px;
-    background: rgb(137, 37, 0);
+    background: rgb(127, 223, 255);
     border: 2px solid white;
     float: left;
     margin-left: 20px;
@@ -10,40 +10,40 @@
     text-align: center;
 }
 
-.Alertbox-base h5{
+.Signupbox-base h5{
     font-size: 18px;
-    color: White;
+    color: black;
     margin: 5px;
 }
 
-.Alertbox-base h3{
-    font-size: 60px;
-    color: white;
+.Signupbox-base h3{
+    font-size: 50px;
+    color: black;
     margin: 15px;
 }
 
-.Alertbox-timer {
+.Signupbox-timer {
     font-size: 20px;
-    color: white;
+    color: black;
     
 }
 
-.Alertbox-base i{
-    color: white
+.Signupbox-base i{
+    color: black
     
 }
 
-.Alertbox-base sup{
+.Signupbox-base sup{
     font-size: 30px;
 }
 
-.Alerts-base {
+.Signup-base {
     overflow:hidden;
-    background: orangered;
+    background: white;
     padding-bottom: 30px;
 }
 
-.Alerts-base h1{
-    color: white;
+.Signup-base h1{
+    color: black;
     padding-left: 20px;
 }

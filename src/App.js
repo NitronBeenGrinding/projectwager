@@ -2,12 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import Taskbar from './components/Taskbar';
 import Alerts from './components/home/Alerts';
+import Signup from './components/home/Signup';
+import Stats from './components/home/Stats';
 
 function App() {
   return (
     <div>
       <Taskbar></Taskbar>
       <Alerts></Alerts>
+      <Signup></Signup>
+      <Stats></Stats>
       <div>
         <p>
           ProjectWager

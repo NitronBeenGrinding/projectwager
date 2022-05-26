@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Taskbar from './components/Taskbar';
+import Alerts from './components/home/Alerts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <Taskbar></Taskbar>
+      <Alerts></Alerts>
+      <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ProjectWager
         </p>
         <a
           className="App-link"
@@ -17,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
     </div>
   );
 }

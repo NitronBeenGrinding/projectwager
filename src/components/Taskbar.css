@@ -1,0 +1,37 @@
+.Taskbar-ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+.Taskbar-ul-parent li{
+    float: left;
+}
+
+.Taskbar-color-bkgd {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Taskbar-color-bkgd a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+  
+/* mouse over link */
+.Taskbar-color-bkgd a:hover{
+    color: orange;
+}
+
+/* selected link */
+.Taskbar-color-bkgd a:active{
+    color: orangered;
+}
+
+.Taskbar-ul-right {
+    float: right;
+  }

@@ -1,0 +1,43 @@
+.Alertbox-base {
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    background: rgb(137, 37, 0);
+    border: 2px solid white;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Alertbox-base h5{
+    font-size: 25px;
+    color: White;
+    margin: 10px;
+}
+
+.Alertbox-base h3{
+    font-size: 60px;
+    color: White;
+    margin: 0px;
+}
+
+.Alertbox-base i{
+    color: white
+    
+}
+
+.Alertbox-base sup{
+    font-size: 30px;
+}
+
+.Alerts-base {
+    overflow:hidden;
+    background: orangered;
+    padding-bottom: 30px;
+}
+
+.Alerts-base h1{
+    color: white;
+    padding-left: 20px;
+}
